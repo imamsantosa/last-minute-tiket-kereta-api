@@ -1,0 +1,29 @@
+{
+    "name": "last-minute-tiket-kereta-api",
+    "version": "1.0.0",
+    "description": "Scrap data dari website http://tiket.kereta-api.co.id dan kirim notifikasi ke desktop.",
+    "main": "tiket.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["tiket", "kereta api"],
+    "author": "M Teguh A Suandi",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mtasuandi/last-minute-tiket-kereta-api.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mtasuandi/last-minute-tiket-kereta-api/issues"
+    },
+    "homepage": "http://mtasuandi.github.io",
+    "dependencies": {
+        "request": "^2.74.0",
+        "promisified-request": "^0.0.3",
+        "form-scraper": "^0.0.4",
+        "cheerio": "^0.22.0",
+        "node-notifier": "^4.6.1",
+        "play-sound": "^0.0.9",
+        "moment": "^2.14.1"
+    }
+}
